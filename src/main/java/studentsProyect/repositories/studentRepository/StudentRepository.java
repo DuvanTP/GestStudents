@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface StudentRepository {
     List<Student> findAll();
-    Student save(Student student);
-    List<Student> find(String title);
+    Student addStudent(Student student);
+    List<Student> find(String name);
 }
